@@ -1,12 +1,63 @@
 <html>
     <head>
         <title>Salute Digitale</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="class.css">
     </head>
-    <body>
+    <body onload="printbar()">
         <h1>La salute è digitale</h1>
 
-        <!--inserisci timetable figo. per ora fai-->
-        <img src="timetable.png" width="70%" />
+
+        <table id="orario">
+        <tr>
+            <th>9:00</th>
+            <th>Lun</th>
+            <th>Mar</th>
+            <th>Mer</th>
+            <th>Gio</th>
+            <th>Ven</th>
+        </tr>
+        <tr>
+            <td class="highlight"><b>11:00</b></td>
+            <td></td>
+            <td>HCI (PS4)</td>
+            <td></td>
+            <td></td>
+            <td>Assistive Tech (M1)</td>
+        </tr>
+        <tr>
+            <td class="highlight"><b>13:00</b></td>
+            <td>Security (X2)</td>
+            <td>Security (PS4)</td>
+            <td>HCI (M1)</td>
+            <td>Security (X3)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="highlight"><b>14:00</b></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="highlight"><b>16:00</b></td>
+            <td></td>
+            <td>AI (M1)</td>
+            <td>AI (LAB H)</td>
+            <td>AI (C1)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="highlight"><b>18:00</b></td>
+            <td></td>
+            <td>Assistive Tech (C1)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
 
         <h2>Artificial Intelligence for Digital Health</h2>
         <ul>
@@ -28,7 +79,12 @@
             <li><a href="https://classroom.google.com/u/1/c/ODQ2MDc4NTc3NzM3">classroom</a>
         </ul>
         
+        <!--
+            <button onclick="printbar()">ciao</button>
+        -->
         <br>
-        <p>v0.1</p>
+        <p id="culo"></p>
+
+        <p>v0.2</p>
     </body>
 </html>
